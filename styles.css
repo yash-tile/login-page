@@ -77,3 +77,24 @@ body {
 .signup-here a{
     color: #37306B;
 }
+
+/* for phones */
+@media (max-width: 576px) {
+    .login-container {
+        width: 70%; /* Adjust width for phones */
+    }
+}
+
+/* for tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    .login-container {
+        width: 50%; /* Adjust width for tablets */
+    }
+}
+
+/* for small laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .login-container {
+        width: 45%;
+    }
+}
